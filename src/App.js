@@ -17,9 +17,9 @@ function App() {
         <BrowserRouter>
         <Header />
         <Switch>
-          <Route exect path="/edit/:id" component={EditStudent}/>
-          <Route exect path="/add" component={AddStudent}/>
-          <Route exect path="/" component={StudentLists}/>
+          <Route exact path="/edit/:id" component={EditStudent}/>
+          <Route exact path="/add" component={AddStudent}/>
+          <Route exact path="/" component={StudentLists}/>
           <Route component={PageNotFound}/>
         </Switch>
         </BrowserRouter>
