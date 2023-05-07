@@ -49,7 +49,7 @@ class EditStudent extends Component {
 
     render() {
         return (
-            <div className='row mt-3 mb-5 ml-5 mr-5'>
+            <div className='row mt-3 mb-5 ms-5 me-5'>
                 <div className='card col-12 col-sm-8 col-lg-6 mx-auto'>
                     <div className='card-body'>
                         <form onSubmit={this.onSubmitStudentForm.bind(this, this.state)}>
